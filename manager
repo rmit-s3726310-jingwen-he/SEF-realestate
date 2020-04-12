@@ -1,0 +1,13 @@
+import java.util.ArrayList;
+
+public class Propertymanager extends Employee {
+	public Propertymanager(String userID, String fname, String lname, String email, String address,
+			ArrayList<User> users) {
+		super(userID, fname, lname, email, address, users);
+		// TODO Auto-generated constructor stub
+	}
+	private final int Etype;
+    private String PropertymanagerStatus_;
+	
+
+}

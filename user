@@ -1,0 +1,57 @@
+import java.util.ArrayList;
+
+
+public abstract class User {
+
+		private String       UserID;
+	    private String       Fname;
+	    private String       Lname;
+	    private String       Email;
+	    private String       Address;
+	    public ArrayList<User> users = new ArrayList<>();
+	    
+	 
+		public User(String userID, String fname, String lname, String email, String address, ArrayList<User> users) {
+			super();
+			this.UserID = userID;
+			this.Fname = fname;
+			this.Lname = lname;
+			this.Email = email;
+			this.Address = address;
+			this.users = users;
+		}
+		public String getUserID() {
+			return UserID;
+		}
+		public void setUserID(String userID) {
+			UserID = userID;
+		}
+		public String getFname() {
+			return Fname;
+		}
+		public void setFname(String fname) {
+			Fname = fname;
+		}
+		public String getLname() {
+			return Lname;
+		}
+		public void setLname(String lname) {
+			Lname = lname;
+		}
+		public String getEmail() {
+			return Email;
+		}
+		public void setEmail(String email) {
+			Email = email;
+		}
+		public String getAddress() {
+			return Address;
+		}
+		public void setAddress(String address) {
+			Address = address;
+		}
+	    
+	    
+	}
+
+}
